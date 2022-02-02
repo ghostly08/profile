@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+  background-color: F5F5F5;
+}
+
+h1, h2, h3, h4, p {
+  font-family: 'Source Code Pro';
+  text-align: left;
+  margin: 0 10px 20px;
+}
+
+h1, h2 {
+  font-weight: 500;
+}
+
+h4, p {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  height: 30%;
+  text-align: center;
+  bottom: 150px;
+}
+
+.banner {
+  width: 100%;
+  /*object-fit: cover;*/
+  background-image: url("./images/boxes-water.jpg");
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 100px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  bottom: 170px;
+  background-color: rgba(250,0,0,.4);
+  transform: translate(10px, 160px);
+}
+
+#about {
+  margin-bottom: 30px;
+  border: solid #7777 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #333;
+}
+
+#about:hover {
+  background-color: #9999;
+}
+
+.jobs {
+  margin-bottom: 30px;
+  border: solid #7777 1px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #333;
+}
+
+.jobs:hover {
+  background-color: #9999;
+}
+
+.redes-container a {
+  color: #333;
+}
+
+.redes-container a:hover {
+  color: #F05454;
+}
+
+ul{
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 30px;
+}
+
+/* ::::::: Media Queries :::::::: */
+
+@media (min-width: 720px) {
+  /* For a screen > 720px, this CSS will be read */
+  main {
+    width: 60%;
+  }
+
+  ul li {
+    font-size: 40px;
+  }
+}
